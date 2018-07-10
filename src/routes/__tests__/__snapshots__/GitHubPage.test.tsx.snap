@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Git Hub Page testing renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <inject-GitHubPage-with-gitHubStore
+    gitHubStore={
+      GitHubStore {
+        "trendingJavascriptRepos": AsyncComputed {
+          "computeFn": [Function],
+          "refreshCallCount": 0,
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "AsyncComputed@15.keys",
+              "observers": Set {},
+            },
+            "name": "AsyncComputed@15",
+            "target": [Circular],
+            "values": Map {
+              "pending" => true,
+              "rejected" => false,
+              "fulfilled" => false,
+              "refreshCallCount" => 0,
+              "state" => "pending",
+              "value" => undefined,
+              "error" => undefined,
+              "_internalObservable" => Promise {
+                "case": [Function],
+                "isPromiseBasedObservable": true,
+                "state": "pending",
+                "value": undefined,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "Promise@29.keys",
+                    "observers": Set {},
+                  },
+                  "name": "Promise@29",
+                  "target": [Circular],
+                  "values": Map {
+                    "value" => undefined,
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "gitHubStore": GitHubStore {
+        "trendingJavascriptRepos": AsyncComputed {
+          "computeFn": [Function],
+          "refreshCallCount": 0,
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "AsyncComputed@15.keys",
+              "observers": Set {},
+            },
+            "name": "AsyncComputed@15",
+            "target": [Circular],
+            "values": Map {
+              "pending" => true,
+              "rejected" => false,
+              "fulfilled" => false,
+              "refreshCallCount" => 0,
+              "state" => "pending",
+              "value" => undefined,
+              "error" => undefined,
+              "_internalObservable" => Promise {
+                "case": [Function],
+                "isPromiseBasedObservable": true,
+                "state": "pending",
+                "value": undefined,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "Promise@36.keys",
+                    "observers": Set {},
+                  },
+                  "name": "Promise@36",
+                  "target": [Circular],
+                  "values": Map {
+                    "value" => undefined,
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    "ref": [Function],
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "gitHubStore": GitHubStore {
+          "trendingJavascriptRepos": AsyncComputed {
+            "computeFn": [Function],
+            "refreshCallCount": 0,
+            Symbol(mobx did run lazy initializers): true,
+            Symbol(mobx administration): ObservableObjectAdministration$$1 {
+              "defaultEnhancer": [Function],
+              "keysAtom": Atom$$1 {
+                "diffValue": 0,
+                "isBeingObserved": false,
+                "isPendingUnobservation": false,
+                "lastAccessedBy": 0,
+                "lowestObserverState": 2,
+                "name": "AsyncComputed@15.keys",
+                "observers": Set {},
+              },
+              "name": "AsyncComputed@15",
+              "target": [Circular],
+              "values": Map {
+                "pending" => true,
+                "rejected" => false,
+                "fulfilled" => false,
+                "refreshCallCount" => 0,
+                "state" => "pending",
+                "value" => undefined,
+                "error" => undefined,
+                "_internalObservable" => Promise {
+                  "case": [Function],
+                  "isPromiseBasedObservable": true,
+                  "state": "pending",
+                  "value": undefined,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "Promise@43.keys",
+                      "observers": Set {},
+                    },
+                    "name": "Promise@43",
+                    "target": [Circular],
+                    "values": Map {
+                      "value" => undefined,
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+      "ref": [Function],
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
